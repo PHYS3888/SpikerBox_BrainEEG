@@ -72,12 +72,12 @@ You can edit event marker tags by opening the text file `BYB_Recording_*-events`
 
 These timed event lists help track changes  in your behavior (eye opening/closing) across your measured signal.
 
-___In your next meeting with your DATA3888 team, talk about the process of measuring alpha waves.
+___When you meet with your DATA3888 team, be ready to report to them about the process of measuring alpha waves.
 Have a sample dataset (with this marker information) ready to provide them.___
 
 __Sample Data__:
 Can't get a good signal, but want to play with some data?
-_BYB_ provide a reference recording of this experiment, which can be downloaded as a .zip file [here](https://backyardbrains.com/experiments/files/EEG_Alpha_SampleData.zip).
+_BYB_ provide a reference recording of this experiment, which can be downloaded as a `.zip` file [here](https://backyardbrains.com/experiments/files/EEG_Alpha_SampleData.zip).
 If you place both files in your _Spike Recorder_ recordings directory and open the `.wav` file, you should be able to examine this data with the embedded event markers.
 
 ## Discussion Activities
@@ -114,3 +114,15 @@ You might think about testing any variables of interest, e.g.,: age, sex, amount
 
 __Alpha Lag__:
 You might be interested in quantifying the time taken from when an individual closes their eyes, to when an alpha wave can be detected (and the time taken for the alpha wave to disappear after eye opening).
+
+## EEG Data Processing (Simple)
+
+During this course you are expected to write and develop your own code for data analysis.
+
+For more information, you can see [this pdf document](https://backyardbrains.com/products/files/Extracting_Frequency_Bands_EEG.pdf) to learn about post-processing your EEG data using Matlab.
+
+To get you started, included in this repository is:
+1. Sample EEG data: `TimBrain_VisualCortex_BYB_Recording.wav`.
+2. Sample code for analyzing it: `TemplateProcessingEEG.m`.
+
+Have a play and see how you go!
